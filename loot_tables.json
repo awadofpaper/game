@@ -1,0 +1,51 @@
+{
+  "regular_enemy": {
+    "equipment": 1.0,
+    "dubloons": 1.0,
+    "filler": 1.0,
+    "recipe_scroll": 0.05
+  },
+  "boss": {
+    "regular_equipment": 0.5,
+    "consumable": 0.3,
+    "dubloons": 1.0,
+    "rare_equipment": 0.05,
+    "epic_equipment": 0.02,
+    "legendary_equipment": 0.01,
+    "recipe_scroll": 0.25,
+    "dungeon_ingredient": 0.15
+  },
+  "filler_items": ["fiber", "wood", "rubble", "ash"],
+  "consumables": ["potion", "scroll", "food"],
+  "recipe_scrolls": [
+    "recipe_wooden_shield",
+    "recipe_bow",
+    "recipe_health_potion",
+    "recipe_iron_sword",
+    "recipe_torch",
+    "recipe_iron_shield",
+    "recipe_iron_armor",
+    "recipe_iron_helmet",
+    "recipe_steel_sword",
+    "recipe_steel_shield",
+    "recipe_steel_armor",
+    "recipe_steel_helmet",
+    "recipe_mana_potion",
+    "recipe_strength_potion",
+    "recipe_speed_potion",
+    "recipe_copper_ring",
+    "recipe_silver_ring",
+    "recipe_gold_ring",
+    "recipe_diamond_ring",
+    "recipe_plague_doctor_mask",
+    "recipe_plague_doctor_robe",
+    "recipe_plague_doctor_gloves"
+  ],
+  "equipment_types": ["sword", "axe", "bow", "staff", "helmet", "armor", "boots", "shield", "gloves", "ring", "necklace"],
+  "equipment_rarities": ["common", "rare", "epic", "legendary"],
+  "dungeon_ingredients": ["arcane_crystal", "shadow_essence", "fey_dust", "infernal_ash", "soul_fragment"],
+  "dubloon_amounts": {
+    "regular_enemy": [1, 2, 3, 4],
+    "boss": [50]
+  }  
+}

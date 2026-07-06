@@ -1,0 +1,73 @@
+================================================================================
+RPG GAME PERFORMANCE PROFILE
+================================================================================
+
+         2964713 function calls (2948215 primitive calls) in 39.650 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1433 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    28088   10.202    0.000   10.202    0.000 {method 'render' of 'pygame.font.Font' objects}
+      304    0.856    0.003    9.272    0.031 C:\Users\Public\rpg_game\graphics.py:518(render)
+        1    0.196    0.196    7.925    7.925 C:\Users\Public\rpg_game\main.py:309(main_menu)
+      235    0.204    0.001    7.096    0.030 C:\Users\Public\rpg_game\gatherer_npc.py:921(draw_all)
+      592    0.096    0.000    7.023    0.012 C:\Users\Public\rpg_game\main.py:279(draw_menu)
+     5170    0.079    0.000    6.893    0.001 C:\Users\Public\rpg_game\gatherer_npc.py:710(draw)
+        1    0.068    0.068    6.004    6.004 C:\Users\Public\rpg_game\main.py:390(character_creation)
+     2765    5.815    0.002    5.815    0.002 {built-in method pygame.display.flip}
+    178/2    0.006    0.000    4.655    2.327 <frozen importlib._bootstrap>:1349(_find_and_load)
+    178/2    0.003    0.000    4.654    2.327 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+    171/2    0.003    0.000    4.653    2.326 <frozen importlib._bootstrap>:911(_load_unlocked)
+    123/1    0.002    0.000    4.652    4.652 <frozen importlib._bootstrap_external>:1020(exec_module)
+    383/5    0.001    0.000    4.526    0.905 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+    129/1    0.015    0.000    4.385    4.385 {built-in method builtins.exec}
+        1    0.001    0.001    4.385    4.385 C:\Users\Public\rpg_game\main.py:1(<module>)
+11036/5873    0.045    0.000    3.731    0.001 C:\Users\alexa\AppData\Local\Programs\Python\Python313\Lib\site-packages\pygame\sysfont.py:390(SysFont)
+11036/5873    3.770    0.000    3.629    0.001 C:\Users\alexa\AppData\Local\Programs\Python\Python313\Lib\site-packages\pygame\sysfont.py:366(font_constructor)
+   125280    0.199    0.000    2.645    0.000 C:\Users\Public\rpg_game\graphics.py:859(draw_tile_layer)
+   359482    2.579    0.000    2.579    0.000 {built-in method pygame.draw.rect}
+        1    2.335    2.335    2.335    2.335 {built-in method pygame.display.set_mode}
+     4427    2.276    0.001    2.276    0.001 {method 'fill' of 'pygame.surface.Surface' objects}
+    10851    0.099    0.000    1.843    0.000 C:\Users\alexa\AppData\Local\Programs\Python\Python313\Lib\site-packages\pygame\pkgdata.py:45(getResource)
+    32175    1.806    0.000    1.806    0.000 {method 'blit' of 'pygame.surface.Surface' objects}
+      290    0.623    0.002    1.633    0.006 C:\Users\Public\rpg_game\graphics.py:292(draw_day_night_overlay)
+    10857    1.520    0.000    1.520    0.000 {built-in method _io.open}
+      290    0.040    0.000    1.191    0.004 C:\Users\Public\rpg_game\graphics.py:1260(draw_spell_hotbar)
+      334    1.132    0.003    1.132    0.003 {method 'tick' of 'pygame.time.Clock' objects}
+      235    0.232    0.001    1.072    0.005 C:\Users\Public\rpg_game\minimap.py:128(draw)
+        1    0.007    0.007    1.007    1.007 C:\Users\Public\rpg_game\spellbook_ui.py:3(spellbook_menu)
+        1    0.932    0.932    0.941    0.941 {built-in method pygame.base.init}
+     2765    0.853    0.000    0.853    0.000 {built-in method pygame.event.get}
+      304    0.014    0.000    0.760    0.002 C:\Users\Public\rpg_game\graphics.py:832(draw_inventory_tooltip)
+       50    0.181    0.004    0.693    0.014 C:\Users\Public\rpg_game\graphics.py:437(draw_pause_menu)
+      580    0.039    0.000    0.662    0.001 C:\Users\Public\rpg_game\graphics.py:928(draw_player_stats_hud)
+      123    0.007    0.000    0.608    0.005 <frozen importlib._bootstrap_external>:1093(get_code)
+      124    0.003    0.000    0.358    0.003 <frozen importlib._bootstrap_external>:1214(get_data)
+      290    0.016    0.000    0.338    0.001 C:\Users\Public\rpg_game\graphics.py:224(draw_time_hud)
+      249    0.011    0.000    0.332    0.001 C:\Users\Public\rpg_game\save_integration.py:167(draw)
+      249    0.003    0.000    0.326    0.001 C:\Users\Public\rpg_game\optimization_enhancements.py:218(update)
+      180    0.005    0.000    0.321    0.002 C:\Users\Public\rpg_game\save_integration.py:177(_draw_message)
+   377075    0.203    0.000    0.316    0.000 C:\Users\Public\rpg_game\tile.py:22(__getitem__)
+      124    0.303    0.002    0.303    0.002 {built-in method _io.open_code}
+        1    0.000    0.000    0.293    0.293 C:\Users\Public\rpg_game\performance_settings_ui.py:1(<module>)
+        1    0.000    0.000    0.283    0.283 C:\Users\Public\rpg_game\performance_settings_ui.py:15(__init__)
+      306    0.000    0.000    0.283    0.001 C:\Users\Public\rpg_game\performance_manager.py:501(get_performance_manager)
+        1    0.000    0.000    0.283    0.283 C:\Users\Public\rpg_game\performance_manager.py:67(__init__)
+        1    0.000    0.000    0.283    0.283 C:\Users\Public\rpg_game\performance_manager.py:200(_get_system_info)
+        1    0.000    0.000    0.267    0.267 C:\Users\alexa\AppData\Local\Programs\Python\Python313\Lib\platform.py:1066(system)
+        1    0.000    0.000    0.267    0.267 C:\Users\alexa\AppData\Local\Programs\Python\Python313\Lib\platform.py:968(uname)
+      290    0.004    0.000    0.242    0.001 C:\Users\Public\rpg_game\graphics.py:216(draw_debug_overlay)
+
+
+
+
+================================================================================
+KEY METRICS TO LOOK FOR:
+================================================================================
+- 'cumtime' = Total time in function + all subfunctions (most important)
+- 'tottime' = Time in function only (excluding subfunctions)
+- 'ncalls' = Number of times function was called
+- Look for functions with high cumtime that aren't pygame internals
+- Functions called thousands of times per second are suspects
+================================================================================
