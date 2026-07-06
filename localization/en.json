@@ -1,0 +1,13 @@
+{
+  "game_title": "Open World RPG",
+  "main_menu": "Main Menu",
+  "pause_menu": "Pause Menu",
+  "inventory": "Inventory",
+  "skill_tree": "Skill Tree",
+  "settings": "Settings",
+  "resume": "Resume",
+  "quit": "Quit",
+  "health": "Health",
+  "stamina": "Stamina",
+  "mana": "Mana"
+}

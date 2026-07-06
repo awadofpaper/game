@@ -1,0 +1,13 @@
+{
+  "game_title": "RPG Monde Ouvert",
+  "main_menu": "Menu Principal",
+  "pause_menu": "Menu Pause",
+  "inventory": "Inventaire",
+  "skill_tree": "Arbre de Compétences",
+  "settings": "Paramètres",
+  "resume": "Reprendre",
+  "quit": "Quitter",
+  "health": "Santé",
+  "stamina": "Endurance",
+  "mana": "Mana"
+}

@@ -1,0 +1,13 @@
+{
+  "game_title": "RPG de Mundo Abierto",
+  "main_menu": "Menú Principal",
+  "pause_menu": "Menú de Pausa",
+  "inventory": "Inventario",
+  "skill_tree": "Árbol de Habilidades",
+  "settings": "Configuración",
+  "resume": "Continuar",
+  "quit": "Salir",
+  "health": "Salud",
+  "stamina": "Resistencia",
+  "mana": "Maná"
+}

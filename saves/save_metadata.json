@@ -1,0 +1,125 @@
+{
+  "version": "2.0",
+  "slots": [
+    {
+      "slot_id": 0,
+      "filename": "save_slot_0.pkl.gz",
+      "character_name": "kk",
+      "level": 1,
+      "playtime": 0,
+      "save_time": "2026-07-06T13:45:46.877259",
+      "location": "Coordinates (52, 52)",
+      "version": "2.0",
+      "exists": true,
+      "file_size": 989712
+    },
+    {
+      "slot_id": 1,
+      "filename": "save_slot_1.pkl.gz",
+      "character_name": "AI_Diplomat_954",
+      "level": 1,
+      "playtime": 0,
+      "save_time": "2026-06-21T21:29:09.960510",
+      "location": "Coordinates (54, 52)",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 1099396
+    },
+    {
+      "slot_id": 2,
+      "filename": "save_slot_2.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 3,
+      "filename": "save_slot_3.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 4,
+      "filename": "save_slot_4.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 5,
+      "filename": "save_slot_5.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 6,
+      "filename": "save_slot_6.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 7,
+      "filename": "save_slot_7.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 8,
+      "filename": "save_slot_8.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    },
+    {
+      "slot_id": 9,
+      "filename": "save_slot_9.pkl.gz",
+      "character_name": "",
+      "level": 1,
+      "playtime": 0,
+      "save_time": null,
+      "location": "",
+      "version": "2.0",
+      "exists": false,
+      "file_size": 0
+    }
+  ]
+}
